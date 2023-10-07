@@ -26,6 +26,7 @@ body {
   display: grid;
   column-gap: 6.4rem;
   row-gap: 9.6rem;
+  align-items: center;
 }
 
 .grid--2-cols {
@@ -110,4 +111,27 @@ body {
 .btn-rest:hover,
 .btn-rest:active {
   background-color: #033f85;
+}
+
+.link {
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: all 0.3s;
+  font-size: 1.8rem;
+  margin-top: 1.2rem;
+}
+
+.link:link,
+.link:visited {
+  color: #033f85;
+  border-bottom: 1px solid transparent;
+  padding-bottom: 2px;
+  transition: all 0.3s;
+}
+
+.link:hover,
+.link:active {
+  color: #034694;
+  border-bottom: 1px solid currentColor;
 }
