@@ -251,6 +251,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   padding: 3.2rem 0;
+  margin-bottom: 9.6rem;
 }
 
 .what-we-do h2 {
@@ -281,6 +282,63 @@
 
 .img-do {
   width: 80%;
+}
+
+/* ************************* */
+/* TESTIMONY SECTION */
+/* ************************* */
+.testimony {
+  margin-bottom: 18rem;
+}
+
+.test {
+  background: #94b0da;
+  backdrop-filter: blur(8px);
+  border-radius: 9px;
+  margin-top: 3.2rem;
+  margin-top: 3.2rem;
+}
+
+.testimony-1,
+.testimony-2,
+.testimony-3 {
+  padding: 2.4rem;
+}
+
+.testimony-text {
+  font-size: 1.8rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
+  color: rgb(49, 49, 49);
+}
+
+.testimony-img {
+  width: 25%;
+  border-radius: 50%;
+  border: 2px solid #034694;
+  margin-bottom: 1.2rem;
+}
+
+.testimony-name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.test-name {
+  color: #022a59;
+  font-size: 1.8rem;
+  padding-bottom: 1rem;
+}
+
+.test-post {
+  font-size: 1.6rem;
+  color: rgb(49, 49, 49);
+}
+
+.quote {
+  font-size: 4.2rem;
+  color: #4f7eb4;
 }
 
 /* ************************* */
@@ -331,13 +389,13 @@
 }
 
 .social-icon:hover {
-  color: #555;
+  color: #053c7a;
 }
 
 .copyright {
   font-size: 1.4rem;
   line-height: 1.6;
-  color: #fff;
+  color: #022a59;
   margin-top: auto;
 }
 
@@ -345,7 +403,7 @@
   font-size: 1.8rem;
   font-weight: 500;
   margin-bottom: 4rem;
-  color: #fff;
+  color: #022a59;
 }
 
 .contacts {
@@ -376,5 +434,5 @@
 
 .footer-link:hover,
 .footer-link:active {
-  color: #555;
+  color: #053c7a;
 }
