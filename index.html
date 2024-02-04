@@ -25,6 +25,7 @@
 
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="general.css" />
+    <link rel="stylesheet" href="queries.css"/>
 
     <title>Students Guide</title>
   </head>
@@ -39,6 +40,7 @@
           <li><a class="main-nav-link" href="#">Log In</a></li>
           <li><a class="main-nav-link nav-cta" href="#">Start Learning</a></li>
         </ul>
+        <ion-icon class="ham-menu" name="menu-outline"></ion-icon>
       </nav>
     </header>
 
@@ -46,7 +48,7 @@
       <section class="section-hero">
         <div class="hero grid grid--2-cols">
           <div class="hero-text-box">
-            <h1 class="heading-primary">
+            <h1 class="heading-primary head">
               Startup your academic life with Students Guide
             </h1>
             <p class="hero-description">
@@ -66,7 +68,7 @@
               ></a>
             </div>
 
-            <a class="btn btn--full" href="#">Learn more &darr;</a>
+            <a class="btn btn--full" href="#features">Learn more &darr;</a>
             <p class="registered-text">
               <span>1,000+ registered students</span>
             </p>
@@ -92,7 +94,7 @@
             <a href="#" class="link">Chemistry</a>
             </div>
 
-            <div class="subject">
+            <div class="subject book">
             <i class="ph ph-calculator icon"></i>
             <a href="#" class="link">Mathematics</a>
             </div>
@@ -107,7 +109,7 @@
             <a href="#" class="link">Physics</a>
             </div>
 
-            <div class="subject">
+            <div class="subject remove">
             <i class="ph ph-globe icon"></i>
             <a href="#" class="link">Geography</a>
             </div>
@@ -115,9 +117,9 @@
       </section>
 
       <section class="section-features">
-        <div class="features container">
+        <div class="container">
           <span class="heading-tertiary">Features</span>
-          <h2 class="heading-secondary">
+          <h2 class="heading-secondary marg-top">
             A comprehensive collection of resources for your academic success
           </h2>
 
@@ -174,7 +176,7 @@
           <h2 class="heading-secondary">We provide a variety of services to help students succeed academically</h2>
           
           <div class="section-do">
-          <div class="grid grid--2-cols grid--do">
+          <div class="grid--2-cols grid--do">
             <div>
            <img src="img/education-1.svg" class="img-do" alt="Illustration"/>
             </div>
@@ -189,7 +191,7 @@
             </p>
           </div>
 
-          <div class="grid grid--2-cols grid--do">
+          <div class="grid--2-cols grid--do">
             <p class="do-text">
               We understand that every student is unique, so we 
               provide a range of resources, from one-on-one 
@@ -226,8 +228,8 @@
         <div class="section-testimony container">
           <h2 class="heading-secondary">What do our Users say?</h2>
 
-          <div class="grid grid--3-cols">
-            <div class="test">
+          <div class="grid grid--3-cols testimony-grid">
+            <div class="test test-1">
             <div class="testimony-1">
               <img class="testimony-img" src="img/student-5.jpg" alt="student"/>
               <p class="testimony-text">
@@ -333,7 +335,7 @@
           </address>
         </div>
 
-        <nav class="nav-col">
+        <nav class="nav-col account">
           <p class="footer-heading">Account</p>
           <ul class="footer-nav">
             <li><a class="footer-link" href="#">Create account</a></li>
@@ -343,7 +345,7 @@
           </ul>
         </nav>
 
-        <nav class="nav-col">
+        <nav class="nav-col company">
           <p class="footer-heading">Company</p>
           <ul class="footer-nav">
             <li><a class="footer-link" href="#">About Student Guide</a></li>
@@ -353,7 +355,7 @@
           </ul>
         </nav>
 
-        <nav class="nav-col">
+        <nav class="nav-col resource">
           <p class="footer-heading">Resources</p>
           <ul class="footer-nav">
             <li><a class="footer-link" href="#">Generate Timetable</a></li>

@@ -1,1 +1,325 @@
+@media (max-width: 1090px) {
+  .section-hero {
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0.6),
+        rgba(34, 34, 34, 0.6)
+      ),
+      url(img/class-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
 
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-description {
+    color: #fff;
+  }
+
+  .head {
+    color: #fff;
+  }
+
+  .registered-text {
+    color: #fff;
+  }
+
+  .hero-img {
+    display: none;
+  }
+
+  .heading-secondary {
+    font-size: 2.8rem;
+  }
+
+  .icon {
+    font-size: 3.2rem;
+  }
+
+  .subject {
+    gap: 0.8rem;
+  }
+
+  .grid--footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .logo-col {
+    grid-row: 2 / 3;
+  }
+
+  .address-col {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+
+  .resource {
+    grid-column: 3 / -1;
+  }
+
+  .features {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .feature-1 {
+    grid-column: 1/3;
+  }
+
+  .feature-2 {
+    grid-column: 1 / 2;
+    margin-top: 0;
+  }
+
+  .feature-3 {
+    grid-column: 2 / 3;
+    margin-top: 0;
+  }
+
+  .testimony-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 950px) {
+  .main-nav-list {
+    display: none;
+  }
+
+  .ham-menu {
+    display: block;
+    font-size: 4.8rem;
+    color: #022a59;
+  }
+
+  .icon {
+    font-size: 2.4rem;
+  }
+
+  .link {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 850px) {
+  .heading-primary {
+    font-size: 3.6rem;
+  }
+
+  .heading-secondary {
+    font-size: 2.4rem;
+  }
+
+  .heading-tertiary {
+    font-size: 1.6rem;
+  }
+
+  .features {
+    row-gap: 3.2rem;
+  }
+
+  .feature-text {
+    font-size: 1.4rem;
+  }
+
+  .feature-heading {
+    font-size: 2rem;
+  }
+
+  .do-text {
+    font-size: 1.5rem;
+  }
+
+  .testimony-grid {
+    row-gap: 3.2rem;
+  }
+
+  .footer-heading {
+    font-size: 1.6rem;
+  }
+
+  .footer-link:link,
+  .footer-link:visited {
+    font-size: 1.4rem;
+  }
+
+  .address {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 710px) {
+  .header-logo {
+    height: 4.2rem;
+  }
+
+  .heading-primary {
+    font-size: 2.8rem;
+  }
+
+  .heading-secondary {
+    font-size: 1.8rem;
+  }
+
+  .heading-tertiary {
+    font-size: 1.6rem;
+  }
+
+  .hero-description {
+    font-size: 1.4rem;
+  }
+
+  .registered-text {
+    font-size: 1.2rem;
+  }
+
+  .do-text {
+    font-size: 1.2rem;
+  }
+
+  .cta-ask {
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 1.4rem;
+  }
+
+  .search {
+    height: 1.8rem;
+    width: 1.8rem;
+    color: #034694;
+  }
+
+  .cta-ask::placeholder {
+    font-size: 1.4rem;
+  }
+
+  .icon {
+    font-size: 2.4rem;
+  }
+
+  .testimony-text {
+    font-size: 1.4rem;
+    line-height: 1.5;
+  }
+
+  .remove {
+    display: none;
+  }
+
+  .footer-heading {
+    font-size: 1.6rem;
+  }
+
+  .footer-link:link,
+  .footer-link:visited {
+    font-size: 1.4rem;
+  }
+
+  .address {
+    font-size: 1.4rem;
+  }
+
+  .features {
+    grid-template-columns: 1fr;
+  }
+
+  .resource {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  }
+
+  .logo-col {
+    grid-row: 3 / 4;
+  }
+
+  .features {
+    grid-template-columns: 1fr;
+  }
+
+  .feature-1 {
+    grid-column: 1/3;
+  }
+
+  .feature-2 {
+    grid-column: 1 / 3;
+    margin-top: 0;
+  }
+
+  .feature-3 {
+    grid-column: 1 / 3;
+    margin-top: 0;
+  }
+
+  .book {
+    display: none;
+  }
+}
+
+@media (max-width: 550px) {
+  .grid--do {
+    row-gap: 2.4rem;
+  }
+
+  .img-do {
+    width: 200%;
+  }
+
+  .do-text {
+    grid-row: 2 / 3;
+    grid-column: 1 / span 2;
+  }
+
+  .grid--footer {
+    column-gap: 1.2rem;
+    width: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-subject {
+    display: none;
+  }
+
+  .grid--footer {
+    grid-template-columns: 1fr;
+  }
+
+  .account {
+    grid-column: 1 / 2;
+  }
+
+  .company {
+    grid-column: 2 / 3;
+  }
+
+  .resource {
+    grid-row: 3 / 4;
+    grid-column: 2 / 3;
+  }
+
+  .address-col {
+    grid-column: 1 / 3;
+  }
+}
+
+@media (max-width: 405px) {
+  .logo-col {
+    grid-row: 1 / 2;
+  }
+
+  .account {
+    grid-column: 1 / 3;
+  }
+
+  .resource {
+    grid-row: 3 / 4;
+    grid-column: 1 / 3;
+  }
+
+  .company {
+    grid-column: 1 / 3;
+  }
+}

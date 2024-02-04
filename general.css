@@ -118,7 +118,6 @@ body {
   border-bottom: 1px solid transparent;
   transition: all 0.3s;
   font-size: 1.8rem;
-  margin-top: 1.2rem;
 }
 
 .link:link,
@@ -133,4 +132,8 @@ body {
 .link:active {
   color: #034694;
   border-bottom: 1px solid currentColor;
+}
+
+.marg-top {
+  margin-top: 1.2rem;
 }

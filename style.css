@@ -52,6 +52,10 @@
   background-color: #033f85;
 }
 
+.ham-menu {
+  display: none;
+}
+
 /* ************************* */
 /* HERO SECTION */
 /* ************************* */
@@ -151,7 +155,6 @@
 .subject {
   display: flex;
   align-items: center;
-  gap: 1.2rem;
 }
 
 .icon {
@@ -167,7 +170,7 @@
 }
 
 .features {
-  margin-top: 3.2rem;
+  margin-top: 1rem;
 }
 
 .feature-1,
@@ -295,7 +298,9 @@
   background: #94b0da;
   backdrop-filter: blur(8px);
   border-radius: 9px;
-  margin-top: 3.2rem;
+}
+
+.test-1 {
   margin-top: 3.2rem;
 }
 
@@ -430,6 +435,7 @@
   font-size: 1.6rem;
   color: #022a59;
   transition: all 0.3s;
+  line-height: 1.5;
 }
 
 .footer-link:hover,
