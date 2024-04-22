@@ -21,6 +21,7 @@
   display: flex;
   align-items: center;
   gap: 3.2rem;
+  z-index: 2;
 }
 
 .main-nav-link:link,
@@ -53,6 +54,9 @@
 }
 
 .ham-menu {
+  border: none;
+  background: none;
+  cursor: pointer;
   display: none;
 }
 
