@@ -345,6 +345,9 @@
 }
 
 @media (max-width: 405px) {
+  .hero-text-box {
+  }
+
   .logo-col {
     grid-row: 1 / 2;
   }
